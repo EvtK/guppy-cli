@@ -16,7 +16,7 @@ var hooks = [
   'post-flow-bugfix-start',
   'post-flow-feature-start',
   'post-flow-hotfix-start',
-  'post-flow-release-start'
+  'post-flow-release-start',
   'post-merge',
   'post-receive',
   'post-rewrite',
