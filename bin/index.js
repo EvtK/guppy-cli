@@ -27,7 +27,7 @@ var argv = yargs.argv;
 
 var hooks = '  applypatch-msg, commit-msg, post-applypatch, post-checkout, ' +
   'post-commit,\n  post-merge, post-receive, post-rewrite, post-update, ' +
-  'pre-applypatch,\n  pre-auto-gc, pre-commit, pre-push, pre-rebase, ' +
+  'pre-applypatch,\n  pre-auto-gc, pre-commit, pre-flow-feature-finish, pre-push, pre-rebase, ' +
   'pre-receive,\n  prepare-commit-msg, update';
 
 if (argv.hooks) {
