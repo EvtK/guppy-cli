@@ -20,6 +20,7 @@ var hooks = [
   'pre-applypatch',
   'pre-auto-gc',
   'pre-commit',
+  'pre-flow-feature-finish',
   'pre-push',
   'pre-rebase',
   'pre-receive',
