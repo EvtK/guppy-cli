@@ -13,6 +13,10 @@ var hooks = [
   'post-applypatch',
   'post-checkout',
   'post-commit',
+  'post-flow-bugfix-start',
+  'post-flow-feature-start',
+  'post-flow-hotfix-start',
+  'post-flow-release-start'
   'post-merge',
   'post-receive',
   'post-rewrite',
@@ -20,6 +24,7 @@ var hooks = [
   'pre-applypatch',
   'pre-auto-gc',
   'pre-commit',
+  'pre-flow-bugfix-finish',
   'pre-flow-feature-finish',
   'pre-push',
   'pre-rebase',
